@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:enchanted_book"
+    },
+    "title":{
+      "text": "Craft the BCP"
+    },
+    "description": {
+      "text": "Sign a written book with the title \"Prayers\""
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "cc:root",
+  "criteria": {
+    "craft_bcp": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:written_book",
+            "nbt": "{title:\"Prayers\"}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "craft_bcp"
+    ]
+  ]
+}

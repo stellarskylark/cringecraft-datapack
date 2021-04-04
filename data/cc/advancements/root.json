@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:player_head"
+    },
+    "title": "CringeCraft",
+    "frame": "challenge",
+    "description": {"text":"Advancements specific to the CringeCraft server"},
+    "background": "minecraft:textures/block/black_concrete.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

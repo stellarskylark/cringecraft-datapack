@@ -1,6 +1,7 @@
 {
   "replace":false,
   "values": [
-    "cc:tick_cc"
+    "cc:tick_cc",
+    "cc:trigger_cc"
   ]
 }

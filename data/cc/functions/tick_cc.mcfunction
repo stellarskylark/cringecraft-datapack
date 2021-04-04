@@ -1,2 +1,5 @@
-# Passive deity buffs
-execute as @a run function cc:ccpbuffs
+#
+# Description: Things that require action every tick
+# Called by: #minecraft:tick
+#
+
