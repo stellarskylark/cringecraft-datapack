@@ -10,7 +10,16 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{title:\"Book of Cringy Prayer 1st ed.\",author:\"CringeCraft Liturgical Council\",datapack:\"CringeCraftV1\",pages:['[{\"text\":\"Hi!\"}]']}"
+              "tag": "{
+                title:\"Book of Cringy Prayer 1st ed.\",
+                author:\"CringeCraft Liturgical Council\",
+                datapack:\"CringeCraftV1\",
+                pages:[
+                  '[
+                    {\"text\":\"Click me to see deity favor.\",\"color\":\"blue\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger cc_trigger set 1\"}}
+                  ]'
+                ]
+              }"
             }
           ]
         }
