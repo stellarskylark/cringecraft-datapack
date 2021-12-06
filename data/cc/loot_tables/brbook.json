@@ -16,7 +16,9 @@
                 datapack:\"CringeCraftV1\",
                 pages:[
                   '[
-                    {\"text\":\"Clip into or out of the Backrooms.\",\"color\":\"blue\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger cc_trigger set 1\"}}
+                    {\"text\":\"Clip into or out of the Backrooms.\",\"color\":\"blue\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger cc_trigger set 1\"}},
+                    {\"text\":\"\n\n\"},
+                    {\"text\":\"Teleport reset (use if things get stuck)\",\"color\":\"blue\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger cc_trigger set 10\"}}
                   ]'
                 ]
               }"
