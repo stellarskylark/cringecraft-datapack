@@ -1,0 +1,25 @@
+{
+  "type": "cc:backrooms",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "layers": [
+        {"height": 1, "block": "minecraft:bedrock"},
+        {"height": 1, "block": "minecraft:yellow_terracotta"},
+        {"height": 4, "block": "minecraft:air"},
+        {"height": 1, "block": "minecraft:yellow_terracotta"},
+        {"height": 1, "block": "minecraft:bedrock"}
+      ],
+      "biome": 1,
+      "structures": {
+        "stronghold": {
+          "distance": 0,
+          "count": 0,
+          "spread": 0
+        },
+        "structures": {
+        }
+      }
+    }
+  }
+}
