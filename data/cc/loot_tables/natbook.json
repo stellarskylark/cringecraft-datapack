@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:loot",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{
+                title:\"Druidic Tome\",
+                author:\"Circle of the Sky\",
+                datapack:\"CringeCraftV1\",
+                pages:[
+                  '[
+                    {\"text\":\"Clear Skies\",\"color\":\"blue\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger cc_trigger set 30\"}},
+                    {\"text\":\"\n\n\"},
+                    {\"text\":\"Rainy Skies\",\"color\":\"blue\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger cc_trigger set 31\"}},
+                    {\"text\":\"\n\n\"},
+                    {\"text\":\"Thunderstorm\",\"color\":\"blue\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger cc_trigger set 32\"}}
+                  ]'
+                ]
+              }"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

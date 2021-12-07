@@ -17,6 +17,9 @@ execute if entity @s[scores={cc_trigger=10}] run tag @a[tag=cc_brtp] remove cc_b
 execute if entity @s[scores={cc_trigger=210..252}] run function cc:descraitp
 execute if entity @s[scores={cc_trigger=299}] run function cc:descraitp
 
+execute if entity @s[scores={cc_trigger=30},tag=potato] run weather clear
+execute if entity @s[scores={cc_trigger=31},tag=potato] run weather rain
+execute if entity @s[scores={cc_trigger=32},tag=potato] run weather thunder
 
 # Reset trigger score and guarantee it's still available
 scoreboard players set @s cc_trigger 0
