@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:loot",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{
+                title:\"Telepad\",
+                author:\"Atreides\",
+                datapack:\"CringeCraftV1\",
+                pages:[
+                  '[\"\",{\"text\":\"Print Waypoints Info\",\"color\":\"blue\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger cc_trigger set 299\"}},{\"text\":\"\n\n\",\"color\":\"reset\"},{\"text\":\"Teleport\",\"bold\":true,\"underlined\":true},{\"text\":\"\n\",\"color\":\"reset\"},{\"text\":\"Waypoint 1\",\"color\":\"blue\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger cc_trigger set 210\"}},{\"text\":\"\n\",\"color\":\"blue\"},{\"text\":\"Waypoint 2\",\"color\":\"blue\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger cc_trigger set 220\"}},{\"text\":\"\n\",\"color\":\"blue\"},{\"text\":\"Waypoint 3\",\"color\":\"blue\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger cc_trigger set 230\"}},{\"text\":\"\n\",\"color\":\"blue\"},{\"text\":\"Waypoint 4\",\"color\":\"blue\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger cc_trigger set 240\"}},{\"text\":\"\n\",\"color\":\"blue\"},{\"text\":\"Waypoint 5\",\"color\":\"blue\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger cc_trigger set 250\"}}]','[\"\",{\"text\":\"Set\",\"bold\":true,\"underlined\":true},{\"text\":\"\n\",\"color\":\"reset\"},{\"text\":\"Waypoint 1\",\"color\":\"blue\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger cc_trigger set 212\"}},{\"text\":\"\n\",\"color\":\"blue\"},{\"text\":\"Waypoint 2\",\"color\":\"blue\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger cc_trigger set 222\"}},{\"text\":\"\n\",\"color\":\"blue\"},{\"text\":\"Waypoint 3\",\"color\":\"blue\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger cc_trigger set 232\"}},{\"text\":\"\n\",\"color\":\"blue\"},{\"text\":\"Waypoint 4\",\"color\":\"blue\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger cc_trigger set 242\"}},{\"text\":\"\n\",\"color\":\"blue\"},{\"text\":\"Waypoint 5\",\"color\":\"blue\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger cc_trigger set 252\"}}]'
+                ]
+              }"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
