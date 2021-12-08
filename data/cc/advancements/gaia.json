@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "gaia": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions":{
+        "item":{
+          "nbt":"{display: {Name: '\"Gaia\\'s Blessing\"'}}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "gaia"
+    ]
+  ],
+  "rewards":{
+    "function":"cc:replenishgaia"
+  }
+}

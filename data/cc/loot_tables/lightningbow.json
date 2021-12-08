@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:loot",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{
+                display:{Name:\'\"Thor\\'s Fury\"\', Lore:[\'\"Brought to you by the Circle of the Sky\"\']}
+              }"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

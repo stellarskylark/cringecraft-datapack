@@ -20,7 +20,11 @@
                     {\"text\":\"\n\n\"},
                     {\"text\":\"Rainy Skies\",\"color\":\"blue\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger cc_trigger set 31\"}},
                     {\"text\":\"\n\n\"},
-                    {\"text\":\"Thunderstorm\",\"color\":\"blue\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger cc_trigger set 32\"}}
+                    {\"text\":\"Thunderstorm\",\"color\":\"blue\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger cc_trigger set 32\"}},
+                    {\"text\":\"\n\n\"},
+                    {\"text\":\"Summon Gaia\\'s Blessing\",\"color\":\"blue\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger cc_trigger set 33\"}},
+                    {\"text\":\"\n\n\"},
+                    {\"text\":\"Summon Thor\\'s Fury\",\"color\":\"blue\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger cc_trigger set 34\"}}
                   ]'
                 ]
               }"

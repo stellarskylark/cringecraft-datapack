@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "thor": {
+      "trigger": "minecraft:shot_crossbow",
+      "conditions":{
+        "item":{
+          "nbt":"{display: {Name: '\"Thor\\'s Fury\"'}}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "thor"
+    ]
+  ],
+  "rewards":{
+    "function":"cc:tagthorarrow"
+  }
+}
