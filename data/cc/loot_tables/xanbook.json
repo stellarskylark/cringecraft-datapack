@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:loot",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{
+                title:\"The Book\",
+                author:\"Tir na nOg Publishing House\",
+                datapack:\"CringeCraftV1\",
+                pages:[
+                  '[
+                    {\"text\":\"Summon Laoise\",\"color\":\"blue\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger cc_trigger set 4\"}}
+                  ]'
+                ]
+              }"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

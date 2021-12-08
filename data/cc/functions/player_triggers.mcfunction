@@ -25,6 +25,9 @@ execute if entity @s[scores={cc_trigger=32},tag=potato] run weather thunder
 execute if entity @s[scores={cc_trigger=33},tag=potato] run loot give @s loot cc:infinitebonemeal
 execute if entity @s[scores={cc_trigger=34},tag=potato] run loot give @s loot cc:lightningbow
 
+# xandeyn's horse summoning
+execute if entity @s[scores={cc_trigger=4},tag=xandeyn] run function cc:summonxandeynhorse
+
 # Reset trigger score and guarantee it's still available
 scoreboard players set @s cc_trigger 0
 scoreboard players enable @s cc_trigger
