@@ -12,7 +12,7 @@
 execute if entity @s[scores={cc_trigger=1},tag=madeline] run function cc:brclip
 # Reset brtp tag
 execute if entity @s[scores={cc_trigger=10},tag=madeline] run tag @a[tag=cc_brtp] remove cc_brtp
-execute at @s[scores={cc_trigger=11},tag=madeline] if predicate cc:inbackrooms run give @s honey_bottle{display:{Name:'"Almond Water"', Lore:['"Smells faintly of cyanide."']}}
+execute at @s[scores={cc_trigger=11},tag=madeline] if predicate cc:inbackrooms run give @s honey_bottle{display:{Name:'"Almond Water"', Lore:['"Smells faintly of cyanide."']}} 16
 
 # 2 - for Descrai; 1-5 - waypoint; 0-2 - tp, check, set, in that order
 execute if entity @s[scores={cc_trigger=210..252}] run function cc:descraitp
